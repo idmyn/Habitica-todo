@@ -21,13 +21,13 @@ pip
 
 TASK DIFFICULTY
 I originally felt that it would be good if task difficulty translated between tasks created on Todoist and 
-Habitica. Therefore, task difficulty should sync with the following code by default, as laid out in $PRIORITY_DOC:
+Habitica. Therefore, task difficulty should sync with the following code by default, as laid out in `main.py` 
 
 Todoist priority			Habitica difficulty
 p1								Hard
 p2								Medium
 p3								Easy
-p4								Trivial
+p4								Easy
 
 If you'd like to change how the sync interprets difficulty or priority, please edit $PRIORITY_DOC. For example, my personal setup actually includes 
 translating Todoist p4 to Easy, rather than Trivial, because I find that Trivial yields so few rewards they aren't worth it to me. 
